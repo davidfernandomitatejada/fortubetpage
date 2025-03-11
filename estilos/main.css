@@ -6,15 +6,14 @@
 body{
     display: grid;
     grid-template-rows:auto 1fr auto ;
-    background-image: url(../img/seamless-pattern-soccer-theme-for-use-as-background-vector.jpg);
+    background-color: aliceblue;
     
 }
 header{
     display:grid;
     grid-template-columns: auto 1fr 1fr;
     margin: 0;
-    background-image: url(../img/seamless-pattern-soccer-theme-for-use-as-background-vector.jpg);
-    width: 100%;
+    background-color: aliceblue;
     height: 100%;
     margin-bottom: 10px;   
 }

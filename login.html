@@ -1,23 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" sizes="196x196" href="img/descarga.png">
-    <link rel="stylesheet" href="estilos/login.css">
-    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iniciar Sesión</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .fondo-login {
+            background-image: url('https://source.unsplash.com/1600x900/?poker');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        .login-box {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <div class="main">
-        <div class="img-header">
-            <img src="img/descarga.png" alt="">
-        </div>
-        <div class="datos">
-            <input type="text" for="user" placeholder="Usuario">
-            <input type="password" for="password" placeholder="Contraseña">
-            <a href="index.html">Log In</a>
+<style>
+    body{
+        background-image: url(img/magicpattern-grid-pattern-1733275495020.jpeg);
+                background-size: cover;
+                background-position: center;
+    }
+</style>
+    <div class="container-fluid fondo-login d-flex align-items-center justify-content-center">
+        <div class="login-box">
+            <style>
+                
+                
+                
+            </style>
+            <h2 class="text-center">Iniciar Sesión
+                <style>
+                    .text-center{
+                        color:rgb(11, 13, 71);
+                    }
+                </style>
+            </h2>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Entrar
+                    <style>
+                        .btn-primary{
+                            background-color:rgb(11, 13, 71);
+                        }
+                    </style>
+                </button>
+            </form>
         </div>
     </div>
-    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
